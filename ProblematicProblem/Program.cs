@@ -103,7 +103,7 @@ namespace ProblematicProblem
                     $"Ah got it! {userName} your random activity is {randomActivity}! Is this okay or do you want to grab another activity? Keep/Redo");
                 Console.WriteLine();
 
-                cont = (Console.ReadLine().ToLower() == "Redo") ? true : false;
+                cont = (Console.ReadLine().ToLower() == "redo") ? true : false;
 
 
             }
